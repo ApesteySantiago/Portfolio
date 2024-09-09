@@ -10,12 +10,12 @@ const entradaNavBar = (x) => ({
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.5, delay: 0 }
+    transition: { duration: 0.8, delay: 0 }
   }
 })
 
 const Navbar = () => {
-  return <nav className="mb-15 flex item-center justify-between py-6 ">
+  return <nav className="mb-20 flex item-center justify-between py-6 ">
     <motion.div 
       variants={ entradaNavBar(-100) }
       initial="hidden"

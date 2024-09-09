@@ -7,7 +7,7 @@ const entradaTxt = (delay) => ({
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.5, delay }
+    transition: { duration: 1, delay }
   }
 })
 

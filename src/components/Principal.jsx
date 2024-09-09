@@ -16,7 +16,7 @@ const entradaImg = () => ({
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 1, delay: 1.2 }
+    transition: { duration: 2.5, delay: 0 }
   }
 })
 
@@ -30,7 +30,7 @@ const Principal = () => {
               variants={entradaTxt(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl text-custom-color"
             >
               Apestey Santiago
             </motion.h1>
@@ -40,13 +40,13 @@ const Principal = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              Web Developer
             </motion.span>
             <motion.p
               variants={entradaTxt(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter">
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-custom-color">
               {HERO_CONTENT}
             </motion.p>
           </div>

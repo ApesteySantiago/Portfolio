@@ -1,3 +1,3 @@
 # Portfolio
 
-(Ver de colocar un Readme)
+Ver de colocar un Readme

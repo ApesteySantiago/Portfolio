@@ -24,7 +24,7 @@ const Navbar = () => {
         <img 
           src={logo} 
           alt="logo" 
-          className="w-[100px] md:w-[150px] lg:w-[200px]"
+          className="w-[150px] md:w-[150px] lg:w-[180px]"
         />
     </motion.div>
     <motion.div 

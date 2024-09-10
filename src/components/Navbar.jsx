@@ -22,10 +22,9 @@ const Navbar = () => {
       animate="visible"
       className="flex flex-shrink-0 item-center ">
         <img 
-          width={180}
           src={logo} 
           alt="logo" 
-          className=""
+          className="w-[100px] md:w-[150px] lg:w-[200px]"
         />
     </motion.div>
     <motion.div 

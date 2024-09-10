@@ -20,12 +20,12 @@ const Navbar = () => {
       variants={ entradaNavBar(-100) }
       initial="hidden"
       animate="visible"
-      className="flex flex-shrink-0 item-center shadow-2xl">
+      className="flex flex-shrink-0 item-center ">
         <img 
           width={180}
           src={logo} 
           alt="logo" 
-          className="shadow-2xl"
+          className=""
         />
     </motion.div>
     <motion.div 

@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants";
+import { CONTENIDO_PRINCIPAL } from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
 import { delay, motion } from "framer-motion";
 
@@ -38,7 +38,7 @@ const Principal = () => {
               variants={entradaTxt(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-300 to-custom-color bg-clip-text text-4xl tracking-tight text-transparent font-light"
             >
               Full Stack Developer
             </motion.span>
@@ -46,8 +46,8 @@ const Principal = () => {
               variants={entradaTxt(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-custom-color">
-              {HERO_CONTENT}
+              className="my-2 max-w-xl py-6 font-light tracking-tight text-custom-color">
+              {CONTENIDO_PRINCIPAL}
             </motion.p>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import logo from "../assets/LogoPorftolioApesteySantiago2.png";
+import logo from "../assets/LogoPorftolioApesteySantiago.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -15,7 +15,7 @@ const entradaNavBar = (x) => ({
 })
 
 const Navbar = () => {
-  return <nav className="pl-0.9  mb-20 flex item-center justify-between py-6 ">
+  return <nav className="pl-0.9  mb-14 flex item-center justify-between py-6 ">
     <motion.div 
       variants={ entradaNavBar(-100) }
       initial="hidden"
@@ -24,7 +24,7 @@ const Navbar = () => {
         <img 
           src={logo} 
           alt="logo" 
-          className="w-[150px] md:w-[150px] lg:w-[180px]"
+          className="w-[150px] md:w-[150px] lg:w-[185px] rounded-2xl"
         />
     </motion.div>
     <motion.div 

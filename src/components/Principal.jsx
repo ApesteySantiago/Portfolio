@@ -46,7 +46,7 @@ const Principal = () => {
               variants={entradaTxt(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tight text-custom-color">
+              className="my-2 max-w-xl py-6 font-light tracking-tight text-custom-color text-justify">
               {CONTENIDO_PRINCIPAL}
             </motion.p>
           </div>

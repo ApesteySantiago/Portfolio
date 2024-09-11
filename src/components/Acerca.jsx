@@ -1,5 +1,5 @@
 import aboutImg from "../assets/about.jpg";
-import { TEXTO_ACERCA } from "../constants";
+import { TEXTO_ACERCA, TEXTO_ACERCA1, TEXTO_ACERCA2 } from "../constants";
 import { motion } from "framer-motion";
 
 
@@ -17,7 +17,7 @@ const Acerca = () => {
         transition={{ duration: 0.5 }}
         className="w-full lg:w-1/2 lg:p-8"
       >
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center tex">
           <img className="rounded-2xl" src={aboutImg} alt="about" />
         </div>
       </motion.div>
@@ -26,8 +26,20 @@ const Acerca = () => {
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 0, x: -100 }}
         className="w-full lg:w-1/2">
-        <div className="flex justify-center lg:justify-start">
-          <p className="my-2 max-w-xl py-6 font-light tracking-tighter">{TEXTO_ACERCA}</p>
+        <div className="flex ">
+          <p className="my-2 max-w-xl pt-6 font-light tracking-tighter text-justify">
+            {TEXTO_ACERCA}</p>
+
+        </div>
+        <div className="flex">
+        <p className="my-2 max-w-xl py-2 font-light tracking-tighter text-justify">
+        {TEXTO_ACERCA1}
+        </p>
+        </div>
+
+        <div className="flex">
+        <p className="my-2 max-w-xl py-2 font-light tracking-tighter text-justify">{TEXTO_ACERCA2}</p>
+
         </div>
       </motion.div>
     </div>

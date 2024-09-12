@@ -1,5 +1,6 @@
 import { CONTENIDO_PRINCIPAL } from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
+import CV from "../assets/CurriculumVitae.pdf"
 import { delay, motion } from "framer-motion";
 
 const entradaTxt = (delay) => ({
@@ -53,11 +54,11 @@ const Principal = () => {
               variants={entradaTxt(1.2)}
               initial="hidden"
               animate="visible" 
-              href="ruta-al-archivo.pdf" 
+              href={CV}
               download 
-              className="px-4 py-2 mb-6 bg-blue-500 text-white rounded">Descargar CV
+              className="px-4 py-2 mb-6 bg-blue-500 text-white rounded tracking-tight">Descargar CV
             </motion.a>
-          </div>
+          </div>   
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">

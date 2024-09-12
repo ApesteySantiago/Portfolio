@@ -1,6 +1,6 @@
 import { CONTENIDO_PRINCIPAL } from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
-import CV from "../assets/CurriculumVitae.pdf"
+import CV from "../assets/CurriculumVitae.pdf";
 import { delay, motion } from "framer-motion";
 
 const entradaTxt = (delay) => ({

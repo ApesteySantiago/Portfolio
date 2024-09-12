@@ -55,7 +55,7 @@ const Principal = () => {
               initial="hidden"
               animate="visible" 
               href={CV}
-              download 
+              download
               className="px-4 py-2 mb-6 bg-blue-500 text-white rounded tracking-tight">Descargar CV
             </motion.a>
           </div>   

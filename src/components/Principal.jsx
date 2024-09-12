@@ -49,6 +49,14 @@ const Principal = () => {
               className="my-2 max-w-xl py-6 font-light tracking-tight text-custom-color text-justify">
               {CONTENIDO_PRINCIPAL}
             </motion.p>
+            <motion.a
+              variants={entradaTxt(1.2)}
+              initial="hidden"
+              animate="visible" 
+              href="ruta-al-archivo.pdf" 
+              download 
+              className="px-4 py-2 mb-6 bg-blue-500 text-white rounded">Descargar CV
+            </motion.a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

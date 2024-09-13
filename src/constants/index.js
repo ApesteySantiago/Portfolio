@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const CONTENIDO_PRINCIPAL = `Soy un desarrollador full stack apasionado con una gran capacidad para crear aplicaciones web eficientes y bien estructuradas. Con 4 años de experiencia, he perfeccionado mis habilidades en tecnologías de front-end como React, JavaScript, TypeScript, HTML5, CSS3, Bootstrap y AJAX, así como en tecnologías de back-end como Node.js, PHP, y bases de datos como MySQL, SQLite y MongoDB. Mi objetivo es aprovechar mi experiencia y nutrirla con nuevos objetivos para desarrollar soluciones innovadoras que se ajusten a las necesidades de los proyectos y ofrezcan experiencias de usuario de alta calidad.`;
 
-export const TEXTO_ACERCA = `Soy un desarrollador full stack con 4 años de experiencia, habiendo comenzado mi trayectoria en Ingeniería Informática, donde me formé en lógica computacional y trabajé con lenguajes como C, Java y Python. Inicié mi camino en la programación en la facultad, trabajando con PSInt y avanzando a C, donde desarrollé algoritmos computacionales y de hash (encriptación). Posteriormente, trabajé con Java diseñando un sistema de revisión de carga para la tarjeta prepaga de transporte (SUBE) y he desarrollado aplicaciones de escritorio con Python.
+export const TEXTO_ACERCA = `Soy un desarrollador full stack con 4 años de experiencia, habiendo comenzado mi trayectoria en Ingeniería Informática, donde me formé en lógica computacional y trabajé con lenguajes como C, Java y Python. Inicié mi camino en la programación en la facultad, trabajando con PSeInt y avanzando a C, donde desarrollé algoritmos computacionales y de hash (encriptación). Posteriormente, trabajé con Java diseñando un sistema de revisión de carga para la tarjeta prepaga de transporte (SUBE) y he desarrollado aplicaciones de escritorio con Python.
 `;
 
 export const TEXTO_ACERCA1 = `A lo largo de mi carrera, he adquirido habilidades tanto en el front-end como en el back-end. En el lado del front-end, tengo experiencia con tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, y TypeScript. En el back-end, he trabajado con PHP, AJAX, Node.js, y bases de datos como MySQL, SQLite, y MongoDB, lo que me permite desarrollar aplicaciones web de manera integral.`;
@@ -15,11 +15,11 @@ export const TEXTO_ACERCA2 = `Mi capacidad de adaptarme rápidamente a nuevos le
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023",
+    role: "Full Stack Developer",
+    company: "Codo a Codo 4.0",
+    description: `Desarrollé una "Landing Page" expositora de conferencias utilizando HTML5, CSS3 y funcionalidades de Bootstrap para galerias. Se implementó funcionalidades para la compra y administración de los tickets del evento, gestado por base de datos en MySQL. Y se optimizó el sitio conforme los requisitos del proyecto y plazos se precisaba.`,
+    technologies: ["HTML5 + CSS 3", "JavaScript", "Bootstrap", "PHP", "MySQL"],
   },
   {
     year: "2022 - 2023",
@@ -37,10 +37,12 @@ export const EXPERIENCES = [
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Estudiante",
+    company: "Facultad Ingenieria del Ejército",
+    description: `
+    
+    Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    technologies: ["PSeInt", "C"],
   },
 ];
 

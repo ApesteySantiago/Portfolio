@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     year: "2023",
     role: "Full Stack Developer",
     company: "Codo a Codo 4.0",
-    description: `Desarrollé una "Landing Page" expositora de conferencias utilizando HTML5, CSS3 y funcionalidades de Bootstrap para galerias. Se implementó funcionalidades para la compra y administración de los tickets del evento, gestado por base de datos en MySQL. Y se optimizó el sitio conforme los requisitos del proyecto y plazos se precisaba.`,
+    description: `Se desarrolló una "Landing Page" expositora de conferencias utilizando HTML5, CSS3 y funcionalidades de Bootstrap para galerias. Se implementó funcionalidades para la compra y administración de los tickets del evento, gestado por base de datos en MySQL. Y se optimizó el sitio conforme los requisitos del proyecto y plazos se precisaba.`,
     technologies: ["HTML5 + CSS 3", "JavaScript", "Bootstrap", "PHP", "MySQL"],
   },
   {
@@ -29,19 +29,17 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2020",
+    role: "Estudiante",
+    company: "Facultad de Ingenieria del Ejército",
+    description: `Algoritmos y base de datos`,
+    technologies: ["C"],
   },
   {
-    year: "2020 - 2021",
+    year: "2019",
     role: "Estudiante",
-    company: "Facultad Ingenieria del Ejército",
-    description: `
-    
-    Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    company: "Facultad de Ingenieria del Ejército",
+    description: `Introducción a paradigmas de la programación con un fluido y amplio armado de programas funcionales para el procesamiento de datos y administración de los mismos dentro del lenguaje.`,
     technologies: ["PSeInt", "C"],
   },
 ];

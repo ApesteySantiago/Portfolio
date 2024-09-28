@@ -27,19 +27,15 @@ const Contacto = () => {
               whileHover={{
                 y: 0,
               }}
-              className="bg-white shadow-lg rounded-lg p-6 max-w-sm text-center border border-gray-300 "
+              className="bg-custom-color2 shadow-lg rounded-lg p-6 max-w-sm text-center "
               >
-              <h2 className="text-2xl font-bold mb-2 text-gray-700">Juan Pérez</h2>
-              <p className="text-gray-600">Email: {CONTACT.email}</p>
-              <p className="text-gray-600">Teléfono: {CONTACT.phoneNo}</p>
-              <p className="text-gray-600">Dirección: {CONTACT.address}</p>
+              <h2 className="text-2xl font-bold mb-2 text-black">Apestey, Santiago Rubén</h2>
+              <p className="text-black">Email: {CONTACT.email}</p>
+              <p className="text-black">Teléfono: {CONTACT.phoneNo}</p>
+              <p className="text-black">Dirección: {CONTACT.address}</p>
             </motion.div>
         </div>
-
-        
-    </div>
-
-    
+    </div>   
   )
 }
 

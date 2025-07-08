@@ -6,39 +6,48 @@ import { motion } from "framer-motion"
 const Proyectos = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="borde-b border-neutral-900 pb-4">
-      <motion.h2 
+      <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity:  0, y: -100 }}
+        initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl">Proyectos</motion.h2>
-      <div>
+      <div className="flex flex-wrap justify-center gap-x-6 gap-y-8">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div 
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
-              className="w-full lg:w-1/4">
+          <div
+            key={index}
+            className="w-full md:w-[45%] max-w-md flex flex-col rounded-xl backdrop-blur-2xl shadow-black/50 shadow-2xl gap-6 p-4"
+          >
+            <motion.div
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -50 }}
+              transition={{ duration: 0.6 }}
+              className="w-full text-center"
+            >
+              <h2 className="text-2xl font-bold text-black mb-4">{project.title}</h2>
               <img
                 src={project.image}
-                width={150}
-                height={150}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="w-48 h-48 object-cover mx-auto rounded"
               />
             </motion.div>
-            <motion.div 
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-3 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 tect-sm font-medium text-purple-900">
-                  {tech}
-                </span>
-              ))}
+
+            <motion.div
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ duration: 0.6 }}
+              className="text-sm text-neutral-700"
+            >
+              <p className="mb-2 line-clamp-4">{project.description}</p>
+              <div className="flex flex-wrap justify-center gap-2">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="px-2 py-1 bg-white border border-gray-300 rounded text-xs"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
@@ -48,3 +57,9 @@ const Proyectos = React.forwardRef((props, ref) => {
 });
 
 export default Proyectos
+
+//<div className="w-96 h-[410px] absolute flex flex-col rounded-xl top-44 left-[500px] backdrop-blur-2xl shadow-black shadow-xl gap-9">
+//          <div className="w-full text-center tex-3xl font-bold text-black mt-8">
+//            <h2>Hola</h2>
+//          </div>
+//        </div>

@@ -15,19 +15,15 @@ const entradaNavBar = (x) => ({
 })
 
 const Navbar = () => {
-  return <nav className="pl-0.9  mb-14 flex item-center justify-between py-6 ">
+  return <nav className="pl-0.9 m-4 flex item-center justify-between">
     <motion.div 
       variants={ entradaNavBar(-100) }
       initial="hidden"
       animate="visible"
       className="flex flex-shrink-0 item-center ">
-        <img 
-          src={logo} 
-          alt="logo" 
-          className="w-[150px] md:w-[170px] lg:w-[185px] rounded-2xl"
-        />
+        
     </motion.div>
-    <motion.div 
+    {/* <motion.div 
       variants={ entradaNavBar(100) }
       initial="hidden"
       animate="visible"
@@ -53,7 +49,7 @@ const Navbar = () => {
         >
         <FaEnvelope size={24} />
       </a>
-    </motion.div>
+    </motion.div> */}
   </nav>;
 };
 

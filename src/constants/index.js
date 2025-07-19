@@ -1,12 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/Foto de Proyectos/Full-stack.png";
+import project2 from "../assets/Foto de Proyectos/Front-End-Final.png";
+import project3 from "../assets/Foto de Proyectos/Bootstrap.png";
+import project4 from "../assets/Foto de Proyectos/Programa_ABMC.png";
 
 export const CONTENIDO_PRINCIPAL = `Soy un desarrollador full stack apasionado con una gran capacidad para crear aplicaciones web eficientes y bien estructuradas. Con 4 años de experiencia, he perfeccionado mis habilidades en tecnologías de front-end como React, JavaScript, TypeScript, HTML5, CSS3, Bootstrap y AJAX, así como en tecnologías de back-end como Node.js, PHP, y bases de datos como MySQL, SQLite y MongoDB. Mi objetivo es aprovechar mi experiencia y nutrirla con nuevos objetivos para desarrollar soluciones innovadoras que se ajusten a las necesidades de los proyectos y ofrezcan experiencias de usuario de alta calidad.`;
 
-export const TEXTO_ACERCA = `Soy un desarrollador full stack con 4 años de experiencia, habiendo comenzado mi trayectoria en Ingeniería Informática, donde me formé en lógica computacional y trabajé con lenguajes como C, Java y Python. Inicié mi camino en la programación en la facultad, trabajando con PSeInt y avanzando a C, donde desarrollé algoritmos computacionales y de hash (encriptación). Posteriormente, trabajé con Java diseñando un sistema de revisión de carga para la tarjeta prepaga de transporte (SUBE) y he desarrollado aplicaciones de escritorio con Python.
-`;
+export const TEXTO_ACERCA = `Soy un desarrollador full stack con 4 años de experiencia, habiendo comenzado mi trayectoria en Ingeniería Informática, donde me formé en lógica computacional y trabajé con lenguajes como C, Java y Python. Inicié mi camino en la programación en la facultad, trabajando con PSeInt y avanzando a C, donde desarrollé algoritmos computacionales y de hash (encriptación). Posteriormente, trabajé con Java diseñando un sistema de revisión de carga para la tarjeta prepaga de transporte (SUBE) y he desarrollado aplicaciones de escritorio con Python.`;
 
 export const TEXTO_ACERCA1 = `A lo largo de mi carrera, he adquirido habilidades tanto en el front-end como en el back-end. En el lado del front-end, tengo experiencia con tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, y TypeScript. En el back-end, he trabajado con PHP, AJAX, Node.js, y bases de datos como MySQL, SQLite, y MongoDB, lo que me permite desarrollar aplicaciones web de manera integral.`;
 
@@ -18,8 +17,22 @@ export const EXPERIENCES = [
     year: "2023",
     role: "Full Stack Developer",
     company: "Codo a Codo 4.0",
-    description: `Se desarrolló una "Landing Page" expositora de conferencias utilizando HTML5, CSS3 y funcionalidades de Bootstrap para galerias. Se implementó funcionalidades para la compra y administración de los tickets del evento, gestado por base de datos en MySQL. Y se optimizó el sitio conforme los requisitos del proyecto y plazos se precisaba.`,
-    technologies: ["HTML5 + CSS 3", "JavaScript", "Bootstrap", "PHP", "MySQL"],
+    description: `Se desarrolló una Landing Page expositora de conferencias utilizando HTML5, CSS3 y funcionalidades de Bootstrap para galerias. Se implementó funcionalidades para la compra y administración de los tickets del evento, gestado por base de datos en MySQL.`,
+    technologies: ["Bootstrap", "PHP", "MySQL"],
+  },
+  {
+    year: "2022",
+    role: "Front End trainee Developer",
+    company: "Universidad Tecnológica Nacional",
+    description: `Se desarrolló una Pagina Web Estática sobre astronomía empleando HTML5 y JavaScript, como base y lienzo. Además de la utilización del Framework de Bootstrap para diversas herramientas y funcionalidades para el estilo del sitio web y galeria expositora.`,
+    technologies: ["Bootstrap"],
+  },
+  {
+    year: "2022",
+    role: "Front End Developer",
+    company: "Universidad Tecnológica Nacional",
+    description: ``,
+    technologies: ["HTML5", "CSS3", "JavaScript"],
   },
   {
     year: "2020",
@@ -35,41 +48,52 @@ export const EXPERIENCES = [
     description: `Introducción a paradigmas de la programación con un fluido y amplio armado de programas funcionales para el procesamiento de datos y administración de los mismos dentro del lenguaje.`,
     technologies: ["PSeInt", "C"],
   },
+
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Conferencia Landing Page",
     image: project1,
+    link: "https://apesteysantiago.github.io/Cosmos/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Landing Page para un evento de conferencias, con funcionalidades de compra y administración de tickets.",
+    technologies: ["HTML", "CSS", "MySQL", "PHP", "Bootstrap"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "Cosmos",
     image: project3,
+    link: "https://apesteysantiago.github.io/Cosmos/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Landing Page estática informativa de astronomía, con un diseño responsivo y galería de imágenes.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Conferencia Landing Page",
+    image: project1,
+    link: "https://apesteysantiago.github.io/Cosmos/",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Landing Page para un evento de conferencias, con funcionalidades de compra y administración de tickets.",
+    technologies: ["HTML", "CSS", "MySQL", "PHP", "Bootstrap"],
+  },
+  {
+    title: "APP Inventario",
+    image: project4,
+    link: "https://apesteysantiago.github.io/Cosmos/",
+    description:
+      "Aplicación de escritorio para la gestión de inventario, con funcionalidades de alta, baja y modificación de productos.",
+    technologies: ["Python", "SQLite"],
+  },
+  {
+    title: "Proyecto de Blog Simple",
+    image: project2,
+    link: "https://apesteysantiago.github.io/Cosmos/",
+    description:
+      "Proyecto de blog estático con funcionalidades de creación, edición y eliminación de entradas. Con el fin de hacer una puesta en práctica de las herramientas aprendidas.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
 export const CONTACT = {
-  address: "Not Found",
-  phoneNo: "+54 9 11 5598 5267",
   email: "apesteysantiagoo@gmail.com",
 };

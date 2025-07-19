@@ -6,13 +6,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   /* font-family: "Inter", sans-serif; */
   font-family: nixie one, sans-serif;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23000000' fill-opacity='0.02' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
 }
 
-.button { 
-  background: linea-gradient(4deg, #00fffc, #0099cc);
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.button {
+  background: linear-gradient(4deg, #00fffc, #0099cc);
   height: 55px;
   width: 200px;
   text-align: center;
@@ -26,10 +35,95 @@
   border-radius: 4px;
 }
 
-.check { 
+.check {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 3;
-  stroke-linecap:round;
+  stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+@media (max-width: 1024px) {
+  #tituloPrincipal {
+    font-size: 4rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  #subtituloPrincipal {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #exp{
+    margin-left: -10px;
+  }
+
+  #información {
+     align-items: center;
+  }
+
+  #btnProyectos {
+    font-size: 1.5rem;
+    width: 180px;
+    height: 60px;
+}   
+}
+
+@media (max-width: 425px) {
+  #tituloPrincipal {
+    font-size: 2.4rem;
+    line-height: 2rem;
+  }
+  #subtituloPrincipal {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  #exp{
+    margin-left: -10px;
+  }
+
+  #información {
+     align-items: center;
+  }
+} 
+
+@media (max-width: 375px) {
+  #tituloPrincipal {
+    font-size: 2.2rem;
+    line-height: 2rem;
+  }
+  #subtituloPrincipal {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  #exp{
+    margin-left: -10px;
+  }
+
+  #información {
+     align-items: center;
+  }
+} 
+
+@media (max-width: 320px) {
+  #tituloPrincipal {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  #subtituloPrincipal {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  #exp{
+    margin-left: -10px;
+  }
+
+  #información {
+     align-items: center;
+  }
+} 
+

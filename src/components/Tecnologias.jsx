@@ -1,8 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { SiJavascript, SiTypescript } from "react-icons/si";
 import { FaNodeJs, FaPhp } from "react-icons/fa";
-import { GrMysql } from "react-icons/gr";
 import { motion } from "framer-motion";
+import { DiDocker, DiPython } from "react-icons/di";
 
 const iconVariants = (duration) => ({
   initial: {y: -10},
@@ -19,7 +19,7 @@ const iconVariants = (duration) => ({
 
 const Tecnologias = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24">
+    <div className="items-center border-b border-neutral-900 pb-24">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial= {{ opacity: 0 , y: -100 }}
@@ -52,7 +52,7 @@ const Tecnologias = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-900 p-4"
           >
-          <SiTypescript className="text-7xl  text-sky-600" />
+          <DiDocker className="text-7xl  text-sky-600" />
         </motion.div>
         <motion.div 
           variants={iconVariants(2)}
@@ -60,7 +60,8 @@ const Tecnologias = () => {
           animate="animate" 
           className="rounded-2xl border-4 border-neutral-900 p-4"
           >
-          <GrMysql className="text-7xl  text-sky-500" />
+          <DiPython className="text-7xl  text-blue-500" />
+          
         </motion.div>
         <motion.div 
           variants={iconVariants(6)}

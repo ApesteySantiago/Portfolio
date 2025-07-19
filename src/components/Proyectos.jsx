@@ -15,7 +15,7 @@ const Proyectos = React.forwardRef((props, ref) => {
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="w-full md:w-[45%] max-w-md flex flex-col rounded-xl backdrop-blur-2xl shadow-black/50 shadow-2xl gap-6 p-4"
+            className="w-[92%] md:w-[45%] max-w-md flex flex-col rounded-xl backdrop-blur-2xl shadow-black/50 shadow-2xl gap-6 p-4"
           >
             <motion.div
               whileInView={{ opacity: 1, y: 0 }}
@@ -24,11 +24,14 @@ const Proyectos = React.forwardRef((props, ref) => {
               className="w-full text-center"
             >
               <h2 className="text-2xl font-bold text-black mb-4">{project.title}</h2>
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-48 h-48 object-cover mx-auto rounded"
-              />
+              <a href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-85 h-50 object-cover mx-auto rounded transition-transform duration-200 hover:scale-105 active:scale-95 cursor-pointer"
+                /></a>
             </motion.div>
 
             <motion.div

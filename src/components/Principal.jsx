@@ -54,7 +54,7 @@ const Principal = ({ scrollToProyectosRef }) => {
 
   return (
     <section>
-      <div className="relativeborder-b border-neutral-900 pb-4 lg:mb-35 z-50">
+      <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
           <div className="w-full h-screen">
             <div className="flex flex-col items-center justify-center min-h-screen ">
@@ -62,7 +62,8 @@ const Principal = ({ scrollToProyectosRef }) => {
                 variants={entradaTxt(0)}
                 initial="hidden"
                 animate="visible"
-                className="pb-2 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl "
+                id ="tituloPrincipal"
+                className="pb-2 text-6xl font-semibold tracking-tight lg:mt-16 lg:text-8xl"
               >
                 Apestey Santiago
               </motion.h1>
@@ -70,9 +71,10 @@ const Principal = ({ scrollToProyectosRef }) => {
                 variants={entradaTxt(0.5)}
                 initial="hidden"
                 animate="visible"
+                id ="subtituloPrincipal"
                 className="bg-clip-text text-4xl tracking-tight "
               >
-                Back-End Developer
+                Full-Stack Developer
               </motion.span>
               {/* <motion.p
               variants={entradaTxt(1)}
@@ -80,7 +82,7 @@ const Principal = ({ scrollToProyectosRef }) => {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tigh text-justify">
               {CONTENIDO_PRINCIPAL}
-            </motion.p> */}
+              </motion.p> */}
               <motion.div
                 variants={entradaTxt(0.5)}
                 initial="hidden"
@@ -91,16 +93,17 @@ const Principal = ({ scrollToProyectosRef }) => {
                   initial="hidden"
                   animate="visible"
                   onClick={scrollToProyectos}
-                  className="hover:text-white hover:bg-black  px-4 py-1.5 mb-6 rounded-xl ml-3 shadow-gray-600 shadow-xl"> Proyectos
+                  id="btnProyectos"
+                  className="hover:text-white hover:bg-black  px-4 py-1.5 mb-6 rounded-xl ml-3 shadow-gray-600 shadow-xl font-semibold "> Proyectos
                 </motion.button>
-                <motion.a
+                {/* <motion.a
                   variants={entradaTxt(1.2)}
                   initial="hidden"
                   animate="visible"
                   href={CV}
                   download
                   className="hover:text-white hover:bg-black px-4 py-2 mb-6 rounded-xl shadow-gray-600 shadow-xl ">Descargar CV
-                </motion.a>
+                </motion.a> */}
               </motion.div>
             </div>
           </div>

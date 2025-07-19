@@ -31,8 +31,8 @@ const Contacto = () => {
               >
               <h2 className="text-2xl font-bold mb-2 text-black">Apestey, Santiago Rubén</h2>
               <p className="text-black">Email: {CONTACT.email}</p>
-              <p className="text-black">Teléfono: {CONTACT.phoneNo}</p>
-              <p className="text-black">Dirección: {CONTACT.address}</p>
+              <p className="text-black">{CONTACT.phoneNo}</p>
+              <p className="text-black">{CONTACT.address}</p>
             </motion.div>
         </div>
     </div>   

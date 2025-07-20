@@ -2,6 +2,7 @@ import project1 from "../assets/Foto de Proyectos/Full-stack.png";
 import project2 from "../assets/Foto de Proyectos/Front-End-Final.png";
 import project3 from "../assets/Foto de Proyectos/Bootstrap.png";
 import project4 from "../assets/Foto de Proyectos/Programa_ABMC.png";
+import project5 from "../assets/Foto de Proyectos/TeamFakas.png";
 
 export const CONTENIDO_PRINCIPAL = `Soy un desarrollador full stack apasionado con una gran capacidad para crear aplicaciones web eficientes y bien estructuradas. Con 4 años de experiencia, he perfeccionado mis habilidades en tecnologías de front-end como React, JavaScript, TypeScript, HTML5, CSS3, Bootstrap y AJAX, así como en tecnologías de back-end como Node.js, PHP, y bases de datos como MySQL, SQLite y MongoDB. Mi objetivo es aprovechar mi experiencia y nutrirla con nuevos objetivos para desarrollar soluciones innovadoras que se ajusten a las necesidades de los proyectos y ofrezcan experiencias de usuario de alta calidad.`;
 
@@ -53,12 +54,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Conferencia Landing Page",
-    image: project1,
-    link: "https://apesteysantiago.github.io/Cosmos/",
+    title: "Team Fakas",
+    image: project5,
+    link: "#",
     description:
-      "Landing Page para un evento de conferencias, con funcionalidades de compra y administración de tickets.",
-    technologies: ["HTML", "CSS", "MySQL", "PHP", "Bootstrap"],
+      "(En desarrollo) Aplicación SaaS para importantes profesores de gymnasios, con funcionalidades de gestión de clientes, clases y pagos.",
+    technologies: ["Next.js","Nest.js", "Docker", "Typescript", "Node.js", "Rabbit  MQ"],
   },
   {
     title: "Cosmos",
@@ -71,7 +72,7 @@ export const PROJECTS = [
   {
     title: "Conferencia Landing Page",
     image: project1,
-    link: "https://apesteysantiago.github.io/Cosmos/",
+    link: "https://conferencia-codo-a-codo.vercel.app",
     description:
       "Landing Page para un evento de conferencias, con funcionalidades de compra y administración de tickets.",
     technologies: ["HTML", "CSS", "MySQL", "PHP", "Bootstrap"],
@@ -79,7 +80,7 @@ export const PROJECTS = [
   {
     title: "APP Inventario",
     image: project4,
-    link: "https://apesteysantiago.github.io/Cosmos/",
+    link: "https://github.com/ApesteySantiago/App-Escritorio",
     description:
       "Aplicación de escritorio para la gestión de inventario, con funcionalidades de alta, baja y modificación de productos.",
     technologies: ["Python", "SQLite"],
@@ -87,7 +88,7 @@ export const PROJECTS = [
   {
     title: "Proyecto de Blog Simple",
     image: project2,
-    link: "https://apesteysantiago.github.io/Cosmos/",
+    link: "https://proyecto-blog-informativo-basico.vercel.app",
     description:
       "Proyecto de blog estático con funcionalidades de creación, edición y eliminación de entradas. Con el fin de hacer una puesta en práctica de las herramientas aprendidas.",
     technologies: ["HTML", "CSS", "JavaScript"],

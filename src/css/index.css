@@ -42,8 +42,7 @@ html, body {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-
-@media (max-width: 1024px) {
+@media (min-width: 1440px) {
   #tituloPrincipal {
     font-size: 4rem;
     line-height: 2rem;
@@ -54,6 +53,92 @@ html, body {
     line-height: 2rem;
     margin-bottom: 1rem;
   }
+  #exp{
+    margin-left: -10px;
+  }
+  #información {
+    align-items: center;
+  }
+  #btnProyectos {
+    font-size: 1.5rem;
+    width: 180px;
+    height: 50px;
+  } 
+  #proyectos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  #proyectos-grid > .tarjeta {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+  #proyectos-grid > .tarjeta:nth-child(-n+2) {
+    width: 34%;
+    max-width: 34%;
+  }
+  #proyectos-grid > .tarjeta:nth-child(n+3) {
+    width: 30%;
+    max-width: 30%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  #tituloPrincipal {
+    font-size: 4rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  #subtituloPrincipal {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  #exp{
+    margin-left: -10px;
+  }
+
+  #información {
+    align-items: center;
+  }
+
+  #btnProyectos {
+    font-size: 1.5rem;
+    width: 180px;
+    height: 50px;
+}   
+#proyectos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  #proyectos-grid > .tarjeta {
+    flex: 1 1 35%;
+    max-width: 35%;
+  }
+  #proyectos-grid > .tarjeta:nth-child(-n+2) {
+    width: 34%;
+    max-width: 34%;
+  }
+  #proyectos-grid > .tarjeta:nth-child(n+3) {
+    width: 30%;
+    max-width: 30%;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  #tituloPrincipal {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+  #subtituloPrincipal {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 
   #exp{
     margin-left: -10px;
@@ -62,15 +147,9 @@ html, body {
   #información {
      align-items: center;
   }
+} 
 
-  #btnProyectos {
-    font-size: 1.5rem;
-    width: 180px;
-    height: 60px;
-}   
-}
-
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   #tituloPrincipal {
     font-size: 2.4rem;
     line-height: 2rem;
@@ -89,7 +168,7 @@ html, body {
   }
 } 
 
-@media (max-width: 375px) {
+@media (max-width: 424px) {
   #tituloPrincipal {
     font-size: 2.2rem;
     line-height: 2rem;
@@ -108,7 +187,7 @@ html, body {
   }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 374px) {
   #tituloPrincipal {
     font-size: 2rem;
     line-height: 2rem;

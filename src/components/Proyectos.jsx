@@ -11,11 +11,11 @@ const Proyectos = React.forwardRef((props, ref) => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl">Proyectos</motion.h2>
-      <div className="flex flex-wrap justify-center gap-x-6 gap-y-8">
+      <div id="proyectos-grid" className="flex flex-wrap justify-center gap-x-6 gap-y-8">
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="w-[92%] md:w-[45%] max-w-md flex flex-col rounded-xl backdrop-blur-2xl shadow-black/50 shadow-2xl gap-6 p-4"
+            className="tarjeta w-[92%] md:w-[45%] max-w-md flex flex-col rounded-xl backdrop-blur-2xl shadow-black/50 shadow-2xl gap-6 p-4"
           >
             <motion.div
               whileInView={{ opacity: 1, y: 0 }}

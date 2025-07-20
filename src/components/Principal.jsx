@@ -1,6 +1,4 @@
-import { CONTENIDO_PRINCIPAL } from "../constants";
-import profilePic from "../assets/Fotodeprueba3.png";
-import CV from "../assets/CV_ApesteySantiago.pdf";
+import React from "react";
 import { delay, motion } from "framer-motion";
 
 const entradaTxt = (delay) => ({
